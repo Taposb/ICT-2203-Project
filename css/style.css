@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width:30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logo img{
+    width:90%;
+   
+    border: 3px solid white;
+    border-radius: 50px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+
+}
+.nav-list{
+    width:50%;
+    display: flex;
+    align-items: center;
+
+}
+.nav-list li{
+    list-style: none;
+    padding: 26px 35px;
+
+
+}
+.nav-list li a{
+
+    text-decoration: none;
+    color: white;
+
+    
+}
+.nav-list li a:hover{
+color:rgb(58, 4, 158);
+    
+}
+.rightnav{
+    width:40%;
+    text-align: right;
+    padding: 0 20px;
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+.background{
+    background: rgba(0,0,0, 0.5) url('../deltaa.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+    .firstsection{
+        height: 100vh;
+
+    }
+ .box-main{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: skyblue;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     max-width: 50%;
+     margin: auto;
+     height:40%;
+ }
+ .firsthalf{
+     width: 80%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     margin-top:280px;
+
+ }
+ .secondhalf{
+    width:20%;
+    margin-top:200px;
+    
+ }
+ .secondhalf img{
+    border: 3px solid rgb(11, 181, 233);
+    border-radius: 50px;
+
+ }
+ .text-big{
+     font-size: 39px;
+     
+ }
+ .text-small{
+     font-size:20px;
+     
+ }
+ .secondhalf{
+
+    width:5%;
+    border-radius: 150px;
+    display:block;}
+ .btn{
+     padding: 8px 16px;
+     margin: 7px 0;
+     border: 2px solid white;
+     border-radius: 8px;
+     background: none;
+     color: white;
+     cursor: pointer;
+           
+ }   
+ .btn:hover{
+    padding: 8px 16px;
+    margin: 7px 0;
+    border: 2px solid rgb(10, 214, 250);
+    border-radius: 8px;
+    background-color: rgb(237, 237, 245);
+    color: rgb(8, 23, 243);
+    cursor: pointer;
+    
+         
+}   
+ .btn-dark{
+     color: black;
+     border: 2px solid black;
+ }
+  .btn-sml{
+     
+    padding: 5px 12px;
+     margin: 7px 0;
+     border: 2px solid white;
+     border-radius: 8px;
+     background: none;
+     color: white;
+     cursor: pointer;
+    vertical-align: middle;
+    
+ }.btn-sml:hover{
+     
+    padding: 5px 12px;
+     margin: 7px 0;
+     border: 2px solid white;
+     border-radius: 8px;
+     background-color: cornflowerblue;
+     color: rgb(12, 200, 247);
+     cursor: pointer;
+    vertical-align: middle;
+   
+ }
+ .backup-style{
+     background-color: rgb(231, 230, 227);
+     min-height:400px;
+     margin-bottom:15px;
+     
+ }
+ .backup{
+     background-color:rgb(228, 243, 245);
+ }
+.backup-edit{
+    background-color:rgb(252, 246, 236);
+}
+ .secRight{
+     height:350px;
+     display: flex;
+     align-items: center;
+     justify-content:space-evenly;
+     /*max:width:50%;*/
+     margin:20px;
+     margin-top:15px;
+ }
+ .paras{
+     padding: 100px 100px ;
+     width:60%;
+     
+ }
+ .secleft{
+     padding:100px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    max: width:50%;
+    margin:auto;
+    flex-direction:row-reverse;
+}
+.secRight2{
+    padding: 30px;
+    height:300px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    max: width:50%;
+    margin:auto;
+}
+.thumbnail img {
+    padding-left:10%;
+    height:350px;
+}
+.thumbnail3 img{
+    margin-right: 90px;
+}
+.thumbnail5{
+    margin-right: 90px;
+}
+.back-r{
+    background-color: wheat;
+}
+.sign-up-form{
+    width: 300px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    background: rgb(231, 222, 222);
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+    margin-bottom: 100px;
+
+}
+.sign-up-form h1{
+    color: #1c8adb;
+    margin-bottom: 30px;
+}
+.input-box{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #999;
+    outline: none;
+}
+.button{
+     color: #fff;
+     width: 100%;
+     padding: 10px;
+     border-radius: 20px;
+     font-size:15px;
+     margin: 10px 0;
+     border: none;
+     outline: none;
+     cursor:pointer;
+     
+}
+.signup-btn{
+    color: #fff;
+     width: 100%;
+     padding: 10px;
+     border-radius: 20px;
+     font-size:15px;
+     margin: 10px 0;
+     border: none;
+     outline: none;
+     cursor:pointer;
+     background-color: #1c8adb;
+
+}
+.twitter-btn{
+    color: #fff;
+     width: 100%;
+     padding: 10px;
+     border-radius: 20px;
+     font-size:15px;
+     margin: 10px 0;
+     border: none;
+     outline: none;
+     cursor:pointer;
+     background-color: #1c8adb;
+}
+.section{
+    width: 100%;
+    min-height: 70vh;
+    background-color:rgb(240, 224, 224);
+    margin-bottom:30px;
+}
+.container{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+.content-section{
+    float: left;
+    width: 55%;
+}
+.image-section{
+    float: right;
+    width: 40%;
+}
+.image-section img{
+    width: 100%;
+    height: auto;
+}
+.content-section .title{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.content-section .content h3{
+    margin-top:20px ;
+    color: #5d5d5d;
+    font-size: 19px;
+}
+.content-section .content p{
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.content-section .content .button a{
+    background-color: #3d3d3d;
+    padding: 12px 40px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    letter-spacing:1.5px;
+    border-radius: 30px;
+
+}
+.content-section .content .button a:hover{
+    background-color: #2a78a5;
+    color: #fff;
+}
+
+
+ .contact{
+     background-color:rgb(221, 219, 216) ;
+     min-height:50vh;
+ }
+ .text-center{
+     text-align: center;
+     padding: 7px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ .form{
+     max-width:400px;
+     margin: 10px auto;
+     
+
+ }
+ .form-input{
+     margin: 15px 0;
+     padding: 5px 3px;
+     width: 100%;
+     font-size: 19px;
+     border: 2px solid grey;
+     border-radius: 6px;
+     min-height:50%;
+ }
+ .text-footer{
+     text-align:center;
+     padding: 30px 0;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     display: flex;
+     justify-content: center;
+     color:whitesmoke;
+
+
+ }
+ @media only screen and(max-width:1140px){
+     .nav-list{
+         flex-direction: column;
+     }
+     .navbar{
+         flex-direction: column;
+     }
+ }
+
